@@ -9,7 +9,7 @@ import figma from'../image/FIGMA.png';
 export const FooderContext = createContext();
 const Skill = () => {
     const { skills } = useContext(PortContext);
-    const [social, setSocial] = useState(["Social Media", "Linkedin", "Github", "Mobile", "Gmail"]);
+    const [social] = useState(["Social Media", "Linkedin", "Github", "Mobile", "Gmail"]);
     return (
         <FooderContext.Provider value={{ social }}>
             <>
