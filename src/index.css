@@ -1,13 +1,179 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0ex;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(123, 122, 122) 0%, rgb(37, 236, 150) 100%);
+    padding: 10px;
+    text-align: center;
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+    font-size: 38px;
+}
+
+h2:hover {
+    background: #000000;
+    background: linear-gradient(-90deg, rgb(123, 122, 122) 0%, rgb(37, 236, 150) 100%);
+}
+
+body {
+    min-height: 100vh;
+    border-radius: 0px 0px 50px 50px;
+    position: relative;
+    z-index: 1;
+    padding: 30px 30px 30px 30px;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("../src/image/p1.png") center/cover no-repeat;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.Aboutme {
+    width: 600px;
+    height: inherit;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+     box-shadow: 10px 10px 1px rgb(186, 176, 176);
+    padding: 20px;
+    font-size: 20px;
+}
+
+.Aboutme1 {
+    margin-top: 70px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 300px;
+    box-shadow: 3px 3px 3px rgb(153, 150, 150);
+}
+
+hr {
+    margin: 0px 10px 0px 10px;
+}
+
+.Skill1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color:white
+}
+
+.Skill {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Skill div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(38, 36, 36);
+    border-radius: 10px;
+    box-shadow: 3px 2px 18px rgb(129, 130, 129);
+    color: white;
+}
+
+.content {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Fooder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: solid;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Foodercontent {
+    width: fit-content;
+    height: inherit;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 1px rgb(139, 137, 137);
+    padding: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px rgb(166, 141, 141);
+    margin-left: 25px;
+}
+.Skill div p{
+    text-align: center;
+}
+
+@media screen and (min-width:320px) and (max-width:750px) {
+    .Aboutme {
+        width: 300px;
+    }
+
+    .Aboutme1 {
+        gap: 0px;
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (min-width:765px) and (max-width:1024px) {
+    .Aboutme1 {
+        gap: 0px;
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (min-width:1010px) and (max-width:1024px) {
+    .Aboutme1 {
+        margin-top: 75px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:825px) {
+    .Fooder{
+        gap:30px;
+    }
+}
+
+.fooder1{
+    color:blue;
+}
+
+.hari{
+    width:fit-content;
+    height: 230px;
+    border-radius: 200px;
+    margin-top:10px;
+    margin-left:9px;
+    box-shadow: 1px 2px 10px rgb(23, 23, 23);
 }
