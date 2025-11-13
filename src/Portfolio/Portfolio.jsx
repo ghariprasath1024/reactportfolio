@@ -11,8 +11,8 @@ const Portfolio = () => {
                     <p className='content'>{content[0]}</p><br />
                     <p className='content'><b>Project</b></p><hr />
                     <p className='content'>{content[1]}</p><br />
-                    <p className='content'><b>Project Link</b></p><hr />
-                    <a href='https://ghariprasath1024.github.io/HtmlAndCssProject/' className="fooder1">To view the  Project </a>
+                    <p className='content'><b>Mini Project Link</b></p><hr />
+                    <a href='https://miniproject12345.netlify.app/' className="fooder1">To view the Projects </a>
                 </div>
                 <div className='Aboutme1'>
                     <img src={hari} alt="hari" className='hari' />
