@@ -4,8 +4,8 @@ const Fooder = () => {
     const { social } = useContext(FooderContext);
     return (
         <>
+         <div className="social"><b>{social[0]}</b></div>
             <div className='Foodercontent'>
-                <div><b>{social[0]}</b></div>
                 <div className="Fooder">
                     <p><b>{social[1]}</b><a href="http://www.linkedin.com/in/hari-prasath-g-a073b6292" className="fooder1">hari-prasath</a></p>
                     <p><b>{social[2]}</b><a href="https://github.com/ghariprasath1024" className="fooder1">Hariprasath</a></p>

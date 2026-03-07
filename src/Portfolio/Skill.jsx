@@ -1,39 +1,20 @@
-import React, { useState, createContext, useContext } from 'react';
-import { PortContext } from '../App';
+import React, { useState, createContext} from 'react';
 import Fooder from './Fooder';
-import img from '../image/html.jpeg';
-import css from'../image/css.jpg';
-import js from'../image/js.png';
-import jsx from'../image/jsx.png';
-import figma from'../image/FIGMA.png';
 export const FooderContext = createContext();
 const Skill = () => {
-    const { skills } = useContext(PortContext);
     const [social] = useState(["Social Media", "Linkedin", "Github", "Mobile", "Gmail"]);
     return (
         <FooderContext.Provider value={{ social }}>
             <>
-                <p className='Skill1'>Skills</p>
-                <div className='Skill'>
-                    <div>
-                        <img src={img} alt="HTML logo" />
-                        <p>{skills[0]}</p>
+                <p className='Skill1'>Skills & Project Fin-AI</p>
+                <div className='Foodercontent1'>
+                    <div className='Foodercontent2'>
+                        <h3>Skill Sets</h3><hr />
+                        <a href='https://skills024.netlify.app/'>skills024.netlify.app</a>
                     </div>
-                    <div>
-                        <img src={css} alt="css logo" />
-                        <p>{skills[1]}</p>
-                    </div>
-                    <div>
-                        <img src={js} alt="javascript logo" />
-                        <p>{skills[2]}</p>  
-                    </div>
-                    <div>
-                        <img src={jsx} alt="" />    
-                        <p>{skills[3]}</p>
-                    </div>
-                    <div>
-                        <img src={figma} alt="" />
-                        <p>{skills[4]}</p>
+                    <div className='Foodercontent2'>
+                        <h3>Project Fin-AI</h3><hr />
+                        <a href=''>To be continued</a>
                     </div>
                 </div>
                 <Fooder />

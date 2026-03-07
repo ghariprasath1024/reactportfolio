@@ -29,7 +29,7 @@ body::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: url("../src/image/p1.png") center/cover no-repeat;
+    background: url("../src/image/Untitled\ design.png") center/cover no-repeat;
     opacity: 0.9;
     z-index: -1;
 }
@@ -38,7 +38,7 @@ body::before {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
 }
 
 .Aboutme {
@@ -46,7 +46,7 @@ body::before {
     height: inherit;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-     box-shadow: 10px 10px 1px rgb(186, 176, 176);
+    box-shadow: 10px 10px 1px rgb(186, 176, 176);
     padding: 20px;
     font-size: 20px;
 }
@@ -65,10 +65,10 @@ hr {
 }
 
 .Skill1 {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
     font-size: 30px;
-    color:white
+    color: white
 }
 
 .Skill {
@@ -121,7 +121,38 @@ a {
     margin-right: auto;
 }
 
-img{
+.Foodercontent1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.Foodercontent2 {
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 1px rgb(139, 137, 137);
+    padding: 20px;
+}
+
+.Foodercontent2 h3 {
+    text-decoration: solid;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.Foodercontent2 a {
+    text-decoration: solid;
+    color: rgb(60, 10, 226);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+img {
     width: 50px;
     height: 50px;
     margin-top: 15px;
@@ -129,7 +160,8 @@ img{
     box-shadow: 3px 3px 1px rgb(166, 141, 141);
     margin-left: 25px;
 }
-.Skill div p{
+
+.Skill div p {
     text-align: center;
 }
 
@@ -157,23 +189,40 @@ img{
     .Aboutme1 {
         margin-top: 75px;
     }
-}
-
-@media screen and (min-width:320px) and (max-width:825px) {
-    .Fooder{
-        gap:30px;
+    .Foodercontent2{
+        width: 250px;
     }
 }
 
-.fooder1{
-    color:blue;
+@media screen and (min-width:1400px) and (max-width:2000px) {
+    .image {
+        gap: 100px
+    }
 }
 
-.hari{
-    width:fit-content;
+@media screen and (min-width:320px) and (max-width:825px) {
+    .Fooder {
+        gap: 30px;
+    }
+}
+
+.fooder1 {
+    color: blue;
+}
+
+.hari {
+    width: fit-content;
     height: 230px;
     border-radius: 200px;
-    margin-top:10px;
-    margin-left:9px;
+    margin-top: 10px;
+    margin-left: 9px;
     box-shadow: 1px 2px 10px rgb(23, 23, 23);
+}
+
+.social {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 100;
 }
