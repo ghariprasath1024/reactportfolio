@@ -14,7 +14,6 @@ const Skill = () => {
                     </div>
                     <div className='Foodercontent2'>
                         <h3>Project Fin-AI</h3><hr />
-                        <a href='#'>To be continued</a>
                     </div>
                 </div>
                 <Fooder />
