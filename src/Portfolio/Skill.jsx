@@ -10,10 +10,15 @@ const Skill = () => {
                 <div className='Foodercontent1'>
                     <div className='Foodercontent2'>
                         <h3>Skill Sets</h3><hr />
-                        <a href='https://skills024.netlify.app/'>skills024.netlify.app</a>
+                        <a href='https://skills024.netlify.app/'>netlify.app</a>
                     </div>
                     <div className='Foodercontent2'>
-                        <h3>Project Fin-AI</h3><hr />
+                        <h3>Projects</h3><hr />
+                        <a>to be continued...</a>
+                    </div>
+                    <div className='Foodercontent2'>
+                        <h3>AI Portfolio</h3><hr />
+                        <a href='https://ghariprasath1024.github.io/Portfolio-ai/'>Portfolio-ai</a>
                     </div>
                 </div>
                 <Fooder />
