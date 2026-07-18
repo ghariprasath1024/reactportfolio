@@ -14,7 +14,7 @@ const Skill = () => {
                     </div>
                     <div className='Foodercontent2'>
                         <h3>Projects</h3><hr />
-                        <a>to be continued...</a>
+                        <a href='https://example.com'>projects024.netlify.app</a>
                     </div>
                     <div className='Foodercontent2'>
                         <h3>AI Portfolio</h3><hr />
