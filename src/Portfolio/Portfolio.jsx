@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { PortContext } from '../App';
-import hari from '../image/hariprasath.jpeg';
+import hari from '../image/hariprasath.jpg';
 const Portfolio = () => {
     const { content } = useContext(PortContext);
     return (
